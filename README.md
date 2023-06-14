@@ -36,7 +36,7 @@ holds four researchers, the process would look like:
 25 26 / 27 28
 29 / 30 31 32
 which produces the checksum 17^18^19^20^21^22^23^25^26^29 == 14.
-All researchers IDs (including the first researcher) are between 0 
+All researchers IDs (including the first researcher) are between 0
 and 2000000000 inclusive, and the checkpoint line will always be 
 at least 1 researcher long.
 With this information, write a function solution(start, length) 
